@@ -2,11 +2,13 @@
   "name": "base-open-layers",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "vite": "^3.0.9"
   },
   "dependencies": {

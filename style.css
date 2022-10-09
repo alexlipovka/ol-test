@@ -1,12 +1,48 @@
+/* @import "nullstyle.css"; */
 @import "node_modules/ol/ol.css";
 
 html, body {
   margin: 0;
   height: 100%;
 }
+.wrapper {
+  height: 100%;
+  /* min-width: 100%; */
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  background-color: beige;
+  display: flex;
+  padding: 15px;
+  justify-content: center;
+}
+
+.top__title {
+  font-size: 2rem;
+}
+
+.main {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: aquamarine;
+}
+
+.map {
+  min-height: 0;
+  flex: 1;  
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  padding: 15px;
+  justify-content: center;
+}
+
+
 #map {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
 }
