@@ -5,10 +5,9 @@
     "dev": "vite",
     "build": "vite build --base=/ol-test/",
     "serve": "vite preview",
-    "deploy": "gh-pages -d dist --dotfiles=true"
+    "deploy": "deploy.bat"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "vite": "^3.0.9"
   },
   "dependencies": {
