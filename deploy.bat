@@ -7,7 +7,7 @@ echo '' > .nojekyll
 git init
 git checkout -B master
 git add -A
-git commit -m 'deploy'
+git commit -m "latest deploy"
 
 git push -f https://github.com/alexlipovka/ol-test.git master:gh-pages
 
