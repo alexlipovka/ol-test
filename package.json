@@ -2,7 +2,7 @@
   "name": "base-open-layers",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build --base=/ol-test/",
     "serve": "vite preview",
     "deploy": "deploy.bat"
